@@ -43,6 +43,9 @@ var c = {
 	nombre: "pepe"
 };
 
+// d y c son sinonimos, cada vez que se cambie c tambien se cambia d y viceversa
+// se comporta como un puntero
+
 var d = c;
 
 console.log('c: ',c);
@@ -52,3 +55,10 @@ c.nombre = "juan";
 
 console.log('c: ',c);
 console.log('d: ', d);
+
+d.nombre = "pedro";
+
+console.log('c: ',c);
+console.log('d: ', d);
+
+
