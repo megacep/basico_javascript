@@ -61,4 +61,54 @@ d.nombre = "pedro";
 console.log('c: ',c);
 console.log('d: ', d);
 
+/***********************************************************/
+/***********************************************************/
+
+// NOTACION PUNTO CORCHETE
+var persona = {
+	nombre: "Juana",
+	apellido: "Herrera",
+	edad:25,
+	direccion: {
+		pais:"Costa Rica",
+		ciudad: "San jose",
+		edificio: {
+			nobmre: "edificio principal",
+			telefono: "2222-2323",
+
+		}
+	}
+};
+
+console.log( persona.nombre );
+console.log( persona.apellido );
+console.log( persona.direccion );
+console.log( persona.direccion.pais );
+
+//Agregando una propiedad a un objeto
+persona.direccion.zipcode = 11101;
+console.log( persona.direccion );
+console.log( persona.direccion.zipcode );
+
+console.log( persona.direccion.edificio.telefono);
+
+// Edificio apunta a la direccion de memoria de persona.direccion.edificio
+var edificio = persona.direccion.edificio;
+
+edificio.numeroDePiso = "8vo piso"
+
+console.log ( persona );
+
+
+// NOTACION DE CORCHETE
+
+var campo = "edad";
+
+console.log( persona["nombre"] );
+console.log( persona["direccion"]["pais"] );
+
+console.log( persona[campo]);
+
+
+
 
