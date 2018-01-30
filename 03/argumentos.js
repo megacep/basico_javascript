@@ -23,7 +23,7 @@ function miFuncion3(a,b,c,d){
 
 	if( arguments.length != 4  ){
 		console.error("la funcion necesita 4 parametros");
-		alert("pasa todos los parametros cat !!");
+		//alert("pasa todos los parametros cat !!");
 		return;
 	}
 	console.log( a + b + c + d );
