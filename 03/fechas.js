@@ -36,7 +36,7 @@ console.log("getTime " +  hoy.getTime());
 
 var inicio = new Date();
 
-for( var  i = 0; i < 1500 ; i++){
+for( var  i = 0; i < 150 ; i++){
 	console.log("Algo..")
 }
 
