@@ -1,0 +1,3 @@
+Hacer estas prueba de  cookies en firefox u otro navegador diferente a chrome,
+ya que anda para el orto;
+O vaciar el historial de la ultima hora para que tome los cambios;
