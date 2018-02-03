@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+
+<!--
+	cuando se pone aca lleva el onclick y se pone detro de un js o <script> no
+	lleva el on -->
+	<button onclick="botonClick()">boton</button>
+
+	<button ondblclick="botonDobleClick()">boton2</button>	
+
+	<div onclick="botonClick()">
+
+	</div>
+
+	<input type="text" id="focus" onfocus="evento()" >
+
+	<input type="text" id="blur" onblur="evento()" >
+
+	<input type="text" id="mouseout" onmouseout="evento()">
+	<br><br><br><br>
+
+	<!-- poner el manejo de eventos en un js, segun dice lo mas prolijo -->
+	<input type="text" name="objDemo" id="objDemo">
+	<br>
+	<button id="btnParaClick"> boton click</button>
+
+	
+<script src = "evento_en_js.js"></script>	
+</body>
+</html>
