@@ -9,9 +9,16 @@
 			height: 100px;
 			background-color: red;
 		}
+
+		/*esto es para bloquer el cick dercho de la pagina*/
+		html,body{
+			width: 100%;
+			height: 100%;
+		}
 	</style>
 </head>
-<body>
+<body oncontextmenu="return false">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae nihil, at, maxime veniam natus. Minus vero qui maxime, unde vel perferendis iure doloremque beatae repellendus! Repellat fugit sapiente autem.
 
 <!--
 	cuando se pone aca lleva el onclick y se pone detro de un js o <script> no
@@ -36,7 +43,10 @@
 	<br>
 	<button id="btnParaClick"> boton click</button>
 
+
 	
 <script src = "evento_en_js.js"></script>	
+<script src = "bloqueandoClickDerecho.js"></script>
+
 </body>
 </html>
