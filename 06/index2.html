@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<!-- onsubmit ejecuta validaciones ante de enviarlo al servido -->
+	<!-- si el onsubmit da false no hace el posteo -->
+	<form action="" onsubmit="return validar();">
+		
+		<!--  la informacion es posteada a traves de name -->
+		<input type="text" id="txtNombre" name="txtNombre">
+
+		<input type="text" id="txtApellido" name ="txtApellido">
+
+		<button type="submit"> Postear data</button>
+	</form>
+	
+<script src ="submitYparametros.js"></script>
+</body>
+</html>
